@@ -29,8 +29,8 @@
 }
 .welcome{
   border: 0px;
-  max-height: 100vh;
   position: relative;
+  margin-bottom: 0px;
 }
   .welcome h3{
     color: #f59c00;
@@ -50,4 +50,25 @@
   border: 0px;
   border-radius: 10px 0;
   background-color: #67a6db;
+}
+.sin-padding{
+  padding: 0px;
+}
+.verde{
+  background-color: #91c139;
+}
+.verde h3{
+  margin-top: 40vh;
+}
+.verde p{
+  color: white;
+}
+.sheet{
+  height: 100vh;
+}
+.naranja{
+  background-color: #f59c00;
+}
+.azul{
+  background-color: #2188ca;
 }
