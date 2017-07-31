@@ -10,10 +10,19 @@
   width: 100%;
   text-align: center;
 }
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  background: rgba(39,145,63,1);
+}
 .nav>li>a{
   color: white;
+}
+.nav>li>a:focus , .nav>li>a:hover{
+  background: rgba(39,145,63,1);
 }
 .nav>li{
   float: none;
   display: inline-block;
+}
+.nav>li:active{
+  background: blue;
 }
