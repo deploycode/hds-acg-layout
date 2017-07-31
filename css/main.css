@@ -76,3 +76,16 @@
   background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%)!important;
   opacity: 1;
 }
+.sheet90{
+  height: 90vh;
+}
+.sheet10{
+  height: 10vh;
+}
+footer{
+  color: white;
+}
+.sheet90 h3{
+  font-size: 100px;
+  color: white;
+}
