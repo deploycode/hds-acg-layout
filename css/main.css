@@ -72,3 +72,7 @@
 .azul{
   background-color: #2188ca;
 }
+.carousel-control{
+  background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%)!important;
+  opacity: 1;
+}
