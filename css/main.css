@@ -56,6 +56,7 @@
 }
 .verde{
   background-color: #91c139;
+  padding: 0px 10%;
 }
 .verde h3{
   margin-top: 40vh;
@@ -64,7 +65,7 @@
   color: white;
 }
 .sheet{
-  height: 100vh;
+  height: 100vh!important;
 }
 .naranja{
   background-color: #f59c00;
