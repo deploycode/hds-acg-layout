@@ -60,6 +60,9 @@
 }
 .verde h3{
   margin-top: 40vh;
+  font-size: 50px;
+  margin-bottom: 40px;
+  color: white;
 }
 .verde p{
   color: white;
@@ -86,7 +89,7 @@
 footer{
   color: white;
 }
-.sheet90 h3{
+.naranja h3{
   font-size: 100px;
   color: white;
 }
