@@ -158,3 +158,28 @@ footer{
 .btn-new{
   margin-top: 30px;
 }
+#phone{
+  width: 10%;
+}
+#numberphone{
+  font-size: 65px;
+  color: #67a6db;
+}
+#p_number{
+  margin-top: -60px;
+}
+#p-banner-inferior{
+  margin-top: -120px;
+  z-index: -1;
+}
+#p-banner-inferior img{
+  width: 100%;
+}
+#logo-gray{
+  width: 300px;
+}
+#prevencion, #somos{
+  font-size: 40px;
+  color: #f59c00;
+  font-weight: bold;
+}
