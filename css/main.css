@@ -1,3 +1,11 @@
+@font-face {font-family: "Helvetica LT";
+  src: url("fonts/helvetica/418c2fe986e22038e848f5235df62b19.eot"); /* IE9*/
+  src: url("fonts/helvetica/418c2fe986e22038e848f5235df62b19.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("fonts/helvetica/418c2fe986e22038e848f5235df62b19.woff2") format("woff2"), /* chrome、firefox */
+  url("fonts/helvetica/418c2fe986e22038e848f5235df62b19.woff") format("woff"), /* chrome、firefox */
+  url("fonts/helvetica/418c2fe986e22038e848f5235df62b19.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("fonts/helvetica/418c2fe986e22038e848f5235df62b19.svg#Helvetica LT") format("svg"); /* iOS 4.1- */
+}
 .navbar{
   background-color: #f59c00;
   border-radius: 0px;
@@ -35,7 +43,7 @@
   .welcome h3{
     color: #f59c00;
     font-size: 100px;
-    margin-bottom: 20px;
+    font-family: "Helvetica LT";
   }
   .welcome p{
     margin-bottom: 20px;
@@ -159,7 +167,7 @@ footer{
   margin-top: 30px;
 }
 #phone{
-  width: 10%;
+  width: 100px;
 }
 #numberphone{
   font-size: 65px;
@@ -169,7 +177,7 @@ footer{
   margin-top: -60px;
 }
 #p-banner-inferior{
-  margin-top: -120px;
+  margin-top: -60px;
   z-index: -1;
 }
 #p-somos{
