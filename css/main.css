@@ -172,11 +172,18 @@ footer{
   margin-top: -120px;
   z-index: -1;
 }
+#p-somos{
+  font-size: 16px;
+}
 #p-banner-inferior img{
   width: 100%;
 }
 #logo-gray{
   width: 300px;
+  margin: auto;
+}
+#row-somos{
+  padding: 15px 120px;
 }
 #prevencion, #somos{
   font-size: 40px;
