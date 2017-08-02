@@ -13,6 +13,9 @@
 }
 .nav>li>a{
   color: white;
+  font-size: 20px;
+  height: 10vh;
+  padding: 4vh 20px 20px 20px;
 }
 .nav>li>a:focus , .nav>li>a:hover{
   background: rgba(39,145,63,1);
@@ -31,7 +34,7 @@
 }
   .welcome h3{
     color: #f59c00;
-    font-size: 80px;
+    font-size: 100px;
     margin-bottom: 20px;
   }
   .welcome p{
@@ -87,6 +90,35 @@ footer{
   color: white;
 }
 .naranja h3{
-  font-size: 100px;
+  font-size: 200px;
   color: white;
+}
+#carousel123{
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.64);
+}
+.new p{
+  font-size: 30px;
+  color: white;
+}
+.new{
+  background-color: rgba(103, 166, 219, 0.81);
+  width: 100%;
+}
+.mi-thumbnail{
+  border: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+  padding: 0px;
+}
+#logo{
+  width: 40%;
+  position: absolute;
+  z-index: 1;
+  top: 35%;
+  left: 30%;
+}
+#carousel-example-generic{
+  height: 90vh;
+
 }

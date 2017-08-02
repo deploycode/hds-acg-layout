@@ -2,8 +2,8 @@
   // setup your carousels as you normally would using JS
   // or via data attributes according to the documentation
   // https://getbootstrap.com/javascript/#carousel
-  $('#carousel123').carousel({ interval: 2000 });
-  $('#carouselABC').carousel({ interval: 3600 });
+  // $('#carousel123').carousel({ interval: 2000 });
+  // $('#carouselABC').carousel({ interval: 3600 });
 }());
 
 (function(){
