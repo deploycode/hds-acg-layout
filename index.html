@@ -8,9 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap -->
-    <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css" >
+    <link rel="stylesheet" href="css/carousel.css" >
   </head>
   <body>
     <header>
@@ -63,7 +64,7 @@
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav" id="menu">
               <li><a href="#">Incio <span class="sr-only">(current)</span></a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Todo sobre Glaucoma <span class="caret"></span></a>
@@ -183,7 +184,7 @@
           </div>
           <div  class="text-center col-xs-4 sospecha">
             <img src="img/2.png" alt="" class="img img-responsive">
-            <h4>Tengo sospecha de glaucoma</h4>
+            <h4>Tengo sospecha <br> de glaucoma</h4>
           </div>
           <div  class="text-center col-xs-4 no">
             <img src="img/3.png" alt="" class="img img-responsive">
@@ -295,11 +296,18 @@
           <p class="text-center"><a href="#" class="btn btn-lg btn-primary btn-hds btn-new" role="button">Conoce más</a></p>
         </div>
       </div>
-      <div class="row">
-        <p  class="text-center col-xs-12" id="p_number"><img src="img/phone.png" id="phone" alt=""> <font id="numberphone">6164585</font></p>
-        <p  class="text-center col-xs-12 sin-padding" id="p-banner-inferior">
-          <img src="img/banner-inferior-2.jpg" alt="" class="img img-responsive">
-        </p>
+      <div class="row" id="row-banner-inferior">
+        <img src="img/banner-inferior-2.jpg" id="img-banner-inferior" class="img img-responsive">
+        <ul class="nav nav-pills" id="ul-banner-inferior">
+          <li><a href="#"><i class="fa fa-map-marker"></i></a></li>
+          <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+        <!-- <p  class="text-center col-xs-12" id="p_number"><img src="img/phone.png" id="phone" alt=""> <font id="numberphone">6164585</font></p> -->
+        <!-- <div  class="text-center col-xs-12 sin-padding" id="p-banner-inferior"></div> -->
+      </div>
         <div class="row" id="row-somos">
           <div  class="col-xs-6">
             <h2 id="somos">Quienes somos</h2>
@@ -317,7 +325,6 @@
             <img src="img/logo-gray.png" alt="" id="logo-gray" class="img img-responsive">
           </div>
         </div>
-      </div>
       <footer class="text-center sin-padding azul row sheet10">
         <br>Alta Visión: Cr 14 No. 86a - 15 Bogotá - Colombia PBX: 6164585 Opción: 5. E-mail: educacion@altavision.com.co
         <br>La información médica aquí descrita no remplaza una valoración oftalmológica.
