@@ -210,7 +210,10 @@ footer{
   margin: auto;
 }
 #row-somos{
-  padding: 15px 120px;
+  padding: 60px 120px;
+  -webkit-box-shadow: 0px -2px 15px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -2px 15px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px -2px 15px 0px rgba(0,0,0,0.75);
 }
 #prevencion, #somos{
   font-size: 40px;
@@ -241,4 +244,14 @@ footer{
   font-size: 80px;
   color: #91c137;
   margin-top: 60px;
+  margin-bottom: 60px;
+}
+#post_content{
+  font-size: 17px;
+}
+#articulo{
+  margin: 60px 120px;
+}
+footer{
+  font-size:16px;
 }
