@@ -232,3 +232,13 @@ footer{
   color: white;
   padding: 30px;
 }
+.navbar-brand>img{
+  width: 250px;
+  padding: 15px;
+}
+#post_title{
+  font-family: "Helvetica LT";
+  font-size: 80px;
+  color: #91c137;
+  margin-top: 60px;
+}
