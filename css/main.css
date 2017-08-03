@@ -182,7 +182,9 @@ footer{
   margin-top: 30px;
 }
 #phone{
-  width: 100px;
+  width: 400px;
+  margin-top: 15px;
+  margin-bottom: -40px;
 }
 #numberphone{
   font-size: 65px;
@@ -190,6 +192,7 @@ footer{
 }
 #p_number{
   margin-top: -60px;
+  z-index: 1;
 }
 #p-banner-inferior{
   margin-top: -60px;
