@@ -201,6 +201,7 @@ footer{
 #p-somos{
   font-size: 16px;
   font-family: "Helvetica LT";
+  color: black;
 }
 #p-banner-inferior img{
   width: 100%;
@@ -210,8 +211,13 @@ footer{
   margin: auto;
 }
 #row-somos{
-  padding: 60px 120px;
   background-color: #fcfcfc;
+}
+#row-somos p{
+  color: black;
+}
+.sin-margen{
+  margin: 0px;
 }
 .sombra{
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
@@ -253,10 +259,13 @@ footer{
   font-size: 17px;
 }
 #articulo{
-  margin: 60px 120px;
+  margin-bottom: 60px;
 }
 footer>p{
   font-size:16px;
+}
+footer{
+  background-color: #fcfcfc;
 }
 .breadcrumb{
   font-size: 20px;
