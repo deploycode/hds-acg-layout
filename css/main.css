@@ -30,9 +30,12 @@ body{
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
   background: rgba(39,145,63,1);
 }
+.btn{
+  font-family: "Helvetica LT";
+}
 #menu>li>a{
   color: white;
-  font-size: 20px;
+  font-size: 14px;
   height: 10vh;
   padding: 4vh 20px 20px 20px;
   font-family: "Helvetica LT";
@@ -57,7 +60,7 @@ body{
 }
   .welcome h3{
     color: #f59c00;
-    font-size: 60px;
+    font-size: 30px;
     font-family: "Helvetica LT";
   }
   .welcome p{
@@ -82,7 +85,7 @@ body{
   padding: 0px 10%;
 }
 .verde h3{
-  margin-top: 40vh;
+  margin-top: 20vh;
   font-size: 50px;
   margin-bottom: 40px;
   color: white;
@@ -114,7 +117,7 @@ footer{
   color: white;
 }
 .naranja h3{
-  font-size: 200px;
+  font-size: 100px;
   color: white;
   font-family: "Helvetica LT";
 }
@@ -151,8 +154,9 @@ footer{
   width: 100%;
 }*/
 .p-welcome{
-  padding: 15px 10% ;
-  font-size: 16px;
+  padding: 5px 10% ;
+  font-size: 14px;
+  font-family: "Helvetica LT";
 }
 .welcome > .caption{
   width: 100%;
@@ -162,7 +166,7 @@ footer{
   min-height: 100%;
 }
 .tengo h4{
-  font-size: 40px;
+  font-size: 25px;
   color: white;
   margin-bottom: 15px;
   font-family: "Helvetica LT"
@@ -206,7 +210,7 @@ footer{
   z-index: -1;
 }
 #p-somos{
-  font-size: 16px;
+  font-size: 12px;
   font-family: "Helvetica LT";
   color: black;
 }
