@@ -14,132 +14,33 @@
   url("../fonts/helvetica-lt/4376652caec8a8cd4024347f48b1330f.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
   url("../fonts/helvetica-lt/4376652caec8a8cd4024347f48b1330f.svg#Helvetica Light") format("svg"); /* iOS 4.1- */
 }
+/*==========================*/
 body{
   font-family: "Helvetica";
 }
-.navbar{
-  background-color: #f59c00;
-  border-radius: 0px;
-  border: 0px;
-  margin:0px;
-}
-.nav{
-  width: 100%;
-  text-align: center;
-}
-.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
-  background: rgba(39,145,63,1);
-}
-.btn{
-  font-family: "Helvetica LT";
-}
-#menu>li>a{
-  color: white;
-  font-size: 14px;
-  height: 10vh;
-  padding: 4vh 20px 20px 20px;
-  font-family: "Helvetica LT";
-}
-.nav>li>a:focus , .nav>li>a:hover{
-  background: rgba(39,145,63,1);
-}
-#ul-banner-inferior>li>a:focus , #ul-banner-inferior>li>a:hover{
-  background: transparent;
-}
-.nav>li{
-  float: none;
-  display: inline-block;
-}
-.nav>li:active{
-  background: blue;
-}
-.welcome{
-  border: 0px;
-  position: relative;
-  margin-bottom: 0px;
-}
-  .welcome h3{
-    color: #f59c00;
-    font-size: 30px;
-    font-family: "Helvetica LT";
-  }
-  .welcome p{
-    margin-bottom: 20px;
-  }
-.caption{
-  background-color: white;
-  opacity: 0.9;
-  position: absolute;
-  bottom: 0px;
-}
-.btn-hds{
-  border: 0px;
-  border-radius: 10px 0;
-  background-color: #67a6db;
-}
-.sin-padding{
-  padding: 0px;
-}
-.verde{
-  background-color: #91c139;
-  padding: 0px 10%;
-}
-.verde h3{
-  margin-top: 20vh;
-  font-size: 50px;
-  margin-bottom: 40px;
-  color: white;
-  font-family: "Helvetica LT";
-}
-.verde p{
-  color: white;
-}
-.sheet{
-  height: 100vh!important;
-}
-.naranja{
-  background-color: #f59c00;
-}
-.azul{
-  background-color: #2188ca;
-  font-family: "Helvetica LT";
-}
-.carousel-control{
-  background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%)!important;
-  opacity: 1;
-}
-.sheet90{
-  height: 90vh;
-}
-.sheet10{
-  height: 10vh;
-}
 footer{
   color: white;
+  background-color: #fcfcfc;
 }
-.naranja h3{
-  font-size: 100px;
-  color: white;
-  font-family: "Helvetica LT";
+footer>p{
+  font-size:16px;
+}
+/*==========================*/
+#articulo{
+  margin-bottom: 60px;
 }
 #carousel123{
   padding: 50px;
   background-color: rgba(255, 255, 255, 0.64);
 }
-.new p{
-  font-size: 30px;
-  color: white;
-  font-family: "Helvetica LT";
+#carousel-example-generic{
+  height: 90vh;
 }
-.new{
-  background-color: rgba(103, 166, 219, 0.81);
+/*#carousel-example-generic-2 img{
+width: 100%;
+}*/
+#img-banner-inferior{
   width: 100%;
-}
-.mi-thumbnail{
-  border: 0px;
-  border-radius: 0px;
-  background-color: transparent;
-  padding: 0px;
 }
 #logo{
   width: 40%;
@@ -148,59 +49,25 @@ footer{
   top: 35%;
   left: 30%;
 }
-#carousel-example-generic{
-  height: 90vh;
+#logo-gray{
+  width: 300px;
+  margin: auto;
 }
-/*#carousel-example-generic-2 img{
-  width: 100%;
-}*/
-.p-welcome{
-  padding: 5px 10% ;
+#menu>li>a{
+  color: white;
   font-size: 14px;
+  height: 10vh;
+  padding: 4vh 20px 20px 20px;
   font-family: "Helvetica LT";
 }
-.welcome > .caption{
-  width: 100%;
-}
-.tengo>div{
-  padding: 15px 80px;
-  min-height: 100%;
-}
-.tengo h4{
-  font-size: 25px;
-  color: white;
-  margin-bottom: 15px;
-  font-family: "Helvetica LT"
-}
-.al100{
-  width: 100%;
-}
-.tengo img{
-  width: 50%;
-  margin: auto;
-  margin-bottom: 15px;
-}
-.tengo{
-  padding: 0px!important;
-  background-color: transparent;
-}
-.tengo .glaucoma , .tengo .no{
-  background-color: rgba(61, 183, 200, 0.65);
-}
-.tengo .sospecha{
-  background-color: rgba(252, 148, 62, 0.71);
-}
-.btn-new{
-  margin-top: 30px;
+#numberphone{
+  font-size: 65px;
+  color: #67a6db;
 }
 #phone{
   width: 400px;
   margin-top: 15px;
   margin-bottom: -40px;
-}
-#numberphone{
-  font-size: 65px;
-  color: #67a6db;
 }
 #p_number{
   margin-top: -60px;
@@ -218,47 +85,10 @@ footer{
 #p-banner-inferior img{
   width: 100%;
 }
-#logo-gray{
-  width: 300px;
-  margin: auto;
-}
-#row-somos{
-  background-color: #fcfcfc;
-}
-#row-somos p{
-  color: black;
-}
-.sin-margen{
-  margin: 0px;
-}
-.sombra{
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-}
 #prevencion, #somos{
   font-size: 40px;
   color: #f59c00;
   font-weight: bold;
-}
-#row-banner-inferior{
-  position: relative;
-}
-#img-banner-inferior{
-  width: 100%;
-}
-#ul-banner-inferior{
-  position: absolute;
-  bottom: 60px;
-}
-#ul-banner-inferior>li>a>i{
-  font-size: 48px;
-  color: white;
-  padding: 30px;
-}
-.navbar-brand>img{
-  width: 200px;
-  padding: 15px;
 }
 #post_title{
   font-family: "Helvetica LT";
@@ -270,15 +100,197 @@ footer{
 #post_content{
   font-size: 14px;
 }
-#articulo{
-  margin-bottom: 60px;
-}
-footer>p{
-  font-size:16px;
-}
-footer{
+#row-somos{
   background-color: #fcfcfc;
+}
+#row-somos p{
+  color: black;
+}
+#row-banner-inferior{
+  position: relative;
+}
+#ul-banner-inferior>li>a:focus , #ul-banner-inferior>li>a:hover{
+  background: transparent;
+}
+#ul-banner-inferior{
+  position: absolute;
+  bottom: 60px;
+}
+#ul-banner-inferior>li>a>i{
+  font-size: 48px;
+  color: white;
+  padding: 30px;
+}
+/*==========================*/
+.azul{
+  background-color: #2188ca;
+  font-family: "Helvetica LT";
+}
+.al100{
+  width: 100%;
+}
+/*==========================*/
+.btn{
+  font-family: "Helvetica LT";
+}
+.btn-hds{
+  border: 0px;
+  border-radius: 10px 0;
+  background-color: #67a6db;
+}
+.btn-new{
+  margin-top: 30px;
 }
 .breadcrumb{
   font-size: 14px;
 }
+/*==========================*/
+.caption{
+  background-color: white;
+  opacity: 0.9;
+  position: absolute;
+  bottom: 0px;
+}
+.carousel-control{
+  background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%)!important;
+  opacity: 1;
+}
+/*==========================*/
+.mi-thumbnail{
+  border: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+  padding: 0px;
+}
+/*==========================*/
+.navbar{
+  background-color: #f59c00;
+  border-radius: 0px;
+  border: 0px;
+  margin:0px;
+}
+.nav{
+  width: 100%;
+  text-align: center;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  background: rgba(39,145,63,1);
+}
+.nav>li>a:focus , .nav>li>a:hover{
+  background: rgba(39,145,63,1);
+}
+
+.nav>li{
+  float: none;
+  display: inline-block;
+}
+.nav>li:active{
+  background: blue;
+}
+.naranja{
+  background-color: #f59c00;
+}
+.naranja h3{
+  font-size: 100px;
+  color: white;
+  font-family: "Helvetica LT";
+}
+.new p{
+  font-size: 30px;
+  color: white;
+  font-family: "Helvetica LT";
+}
+.new{
+  background-color: rgba(103, 166, 219, 0.81);
+  width: 100%;
+}
+.navbar-brand>img{
+  width: 200px;
+  padding: 15px;
+}
+/*==========================*/
+.p-welcome{
+  padding: 5px 10% ;
+  font-size: 14px;
+  font-family: "Helvetica LT";
+}
+/*==========================*/
+.sin-padding{
+  padding: 0px;
+}
+.sheet{
+  height: 100vh!important;
+}
+.sheet90{
+  height: 90vh;
+}
+.sheet10{
+  height: 10vh;
+}
+.sin-margen{
+  margin: 0px;
+}
+.sombra{
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+/*==========================*/
+.tengo>div{
+  padding: 15px 80px;
+  min-height: 100%;
+}
+.tengo h4{
+  font-size: 25px;
+  color: white;
+  margin-bottom: 15px;
+  font-family: "Helvetica LT"
+}
+
+.tengo img{
+  width: 50%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.tengo{
+  padding: 0px!important;
+  background-color: transparent;
+}
+.tengo .glaucoma , .tengo .no{
+  background-color: rgba(61, 183, 200, 0.65);
+}
+.tengo .sospecha{
+  background-color: rgba(252, 148, 62, 0.71);
+}
+
+.verde{
+  background-color: #91c139;
+  padding: 0px 10%;
+}
+.verde h3{
+  margin-top: 20vh;
+  font-size: 50px;
+  margin-bottom: 40px;
+  color: white;
+  font-family: "Helvetica LT";
+}
+.verde p{
+  color: white;
+}
+/*==========================*/
+.welcome{
+  border: 0px;
+  position: relative;
+  margin-bottom: 0px;
+}
+  .welcome h3{
+    color: #f59c00;
+    font-size: 30px;
+    font-family: "Helvetica LT";
+  }
+  .welcome p{
+    margin-bottom: 20px;
+  }
+  .welcome > .caption{
+    width: 100%;
+  }
