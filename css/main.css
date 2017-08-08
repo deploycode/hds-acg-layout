@@ -167,6 +167,9 @@ footer{
   margin-bottom: 15px;
   font-family: "Helvetica LT"
 }
+.al100{
+  width: 100%;
+}
 .tengo img{
   width: 50%;
   margin: auto;
