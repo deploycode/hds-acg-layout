@@ -43,17 +43,14 @@ width: 100%;
   width: 100%;
 }
 #logo{
-  width: 40%;
+  width: 35%;
   position: absolute;
   z-index: 1;
-  top: 48%;
-  left: 30%;
+  top: 50%;
+  left: 32%;
 }
 #logo-menu{
   width: 48px;
-}
-#link-logo{
-  padding: 0px!important;
 }
 #logo-gray{
   width: 300px;
