@@ -133,8 +133,10 @@ width: 100%;
 }
 /*==========================*/
 .azul{
-  background-color: #2188ca;
-  font-family: "Helvetica LT";
+  background-color: #1c8ecd;
+}
+.morado{
+  background-color: #734d88;
 }
 .al100{
   width: 100%;
@@ -278,6 +280,13 @@ width: 100%;
 
 .verde{
   background-color: #91c139;
+}
+
+.amarillo{
+  background-color: yellow;
+}
+.item-todo{
+  height: 100vh;
   padding: 0px 10%;
 }
 .verde h3{
