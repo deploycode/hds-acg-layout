@@ -49,6 +49,12 @@ width: 100%;
   top: 48%;
   left: 30%;
 }
+#logo-menu{
+  width: 48px;
+}
+#link-logo{
+  padding: 0px!important;
+}
 #logo-gray{
   width: 300px;
   margin: auto;

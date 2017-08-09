@@ -1,7 +1,7 @@
 $(document).ready(function(){
   var flag = false;
   var scroll;
-  var alto = screen.height - 200;
+  var alto = screen.height - 100;
 
   $(window).scroll(function(){
     scroll = $(window).scrollTop();
