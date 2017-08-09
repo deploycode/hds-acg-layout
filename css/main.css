@@ -67,6 +67,13 @@ width: 100%;
   font-size: 65px;
   color: #67a6db;
 }
+#navbar-brand-home img{
+  width: 120px;
+  padding: 10px;
+}
+#navbar-brand-home{
+  padding: 0px;
+}
 #phone{
   width: 400px;
   margin-top: 15px;
@@ -176,7 +183,7 @@ width: 100%;
   margin:0px;
 }
 .nav{
-  width: 100%;
+  width: 90%;
   text-align: center;
 }
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
