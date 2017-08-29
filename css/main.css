@@ -135,11 +135,11 @@ width: 100%;
 .azul{
   background-color: #1c8ecd;
 }
-.morado{
-  background-color: #734d88;
-}
 .al100{
   width: 100%;
+}
+.amarillo{
+  background-color: yellow;
 }
 /*==========================*/
 .btn{
@@ -168,6 +168,14 @@ width: 100%;
   opacity: 1;
 }
 /*==========================*/
+.item-todo{
+  height: 100vh;
+  padding: 0px 10%;
+}
+/*==========================*/
+.morado{
+  background-color: #734d88;
+}
 .mi-thumbnail{
   border: 0px;
   border-radius: 0px;
@@ -277,18 +285,9 @@ width: 100%;
 .tengo .sospecha{
   background-color: rgba(252, 148, 62, 0.71);
 }
-
+/*/////////////////////////////////////////*/
 .verde{
   background-color: #91c139;
-}
-
-.amarillo{
-  background-color: yellow;
-}
-
-.item-todo{
-  height: 100vh;
-  padding: 0px 10%;
 }
 .verde h3{
   margin-top: 20vh;
